@@ -60,11 +60,13 @@ We used the statistic software *R* to analyze the user study results. Therefore,
 
 1. Anova analysis of the user study: [Anova.r](/scripts/anova.r)
 2. Pair plot generator for the results: [Pair-plot.r](/scripts/pair-plot.r)
+3. Power analysis for our sample size: [Power-analysis.r](/scripts/power-analysis.r)
 
 Please install R v4.3.2 for replication. Add Rscript to your PATH variable if you run Microsoft Windows. Execute within the root directory of the repository:
 
 1. `Rscript --vanilla scripts/anova.r` for testing ANOVA.
 2. `Rscript --vanilla scripts/pair-plot.r` for generating the pair plot.
+3. `Rscript --vanilla scripts/power-analysis.r` for conducting a power analysis.
 
 Figure 5 displays the generated pair plot.
 
